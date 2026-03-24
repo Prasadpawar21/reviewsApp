@@ -1,18 +1,13 @@
-# React + Vite
+Description : Built a CoinToss app by applying the concepts by applying the concepts of react js such as "Multi-State-Components" , "functional" and "class" Componets , moving forword and backword into list of reviews object using single state variable , react states (controlled and uncontrolled) , react props , javascript onclick() event , basics of javascript , flexbox and Media query , HTML/CSS , etc .
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img width="1919" height="967" alt="image" src="https://github.com/user-attachments/assets/c932d63b-3d85-4c4f-bfd7-335d07649c64" />
 
-Currently, two official plugins are available:
+Functionality : The app have the following functionalities -
+1. When the left arrow is clicked, then the previous review details should be displayed .
+2. When the right arrow is clicked, then the next review details should be displayed .
+3. If the review that is being displayed is the first in the list of reviews . There should not be any state change when the left arrow is clicked .
+4. If the review that is being displayed is the last in the list of reviews . There should not be any state change when the right arrow is clicked .
+5. The ReviewsCarousel component receives the reviewsList as a prop. It consists of a list of review objects with the following properties in each review object - 
+{ imgUrl : String , username:String , companyName:String , description:String }
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Deployement : https://prasad514.ccbp.tech/
